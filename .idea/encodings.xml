@@ -3,6 +3,16 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/coding-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coding-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-workflow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/coding-workflow/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coding-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coding-business/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-core/src/main/java" charset="UTF-8" />

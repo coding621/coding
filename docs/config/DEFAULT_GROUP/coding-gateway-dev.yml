@@ -1,0 +1,89 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lowerCaseServiceId: true
+          enabled: true
+      routes:
+        # 认证中心
+        - id: coding-auth
+          uri: lb://coding-auth
+          predicates:
+            - Path=/auth/**
+          filters:
+            # 验证码处理
+            - CacheRequestFilter
+            # - ValidateCodeFilter
+            - StripPrefix=1
+        # 代码生成
+        - id: coding-gen
+          uri: lb://coding-gen
+          predicates:
+            - Path=/gen/**
+          filters:
+            - StripPrefix=0
+        # 定时任务
+        - id: coding-job
+          uri: lb://coding-job
+          predicates:
+            - Path=/schedule/**
+          filters:
+            - StripPrefix=0
+        # 系统模块
+        - id: coding-system
+          uri: lb://coding-system
+          predicates:
+            - Path=/system/**
+          filters:
+            - StripPrefix=0
+        # 项目模块
+        - id: coding-project
+          uri: lb://coding-project
+          predicates:
+            - Path=/project/**
+          filters:
+            - StripPrefix=0
+        # 流程模块
+        - id: coding-workflow
+          uri: lb://coding-workflow
+          predicates:
+            - Path=/workflow/**
+          filters:
+            - StripPrefix=0
+
+# 安全配置
+security:
+  # 验证码
+  captcha:
+    enabled: false
+    type: math
+  # 防止XSS攻击
+  xss:
+    enabled: true
+    excludeUrls:
+      - /system/notice
+  # 不校验白名单
+  ignore:
+    whites:
+      - /auth/logout
+      - /auth/login
+      - /auth/refreshRedis
+      - /auth/register
+      - /*/v2/api-docs
+      - /csrf
+      - /profile/**
+      # 以下为首页免登过滤接口
+      - /system/user/getInfo
+      - /project/statistics
+      - /project/doing
+      - /project/queryMyTaskList
+      - /project/select
+      - /system/menu/getRouters
+      # 测试限流
+      - /auth/limitTest
+

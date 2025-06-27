@@ -17,11 +17,13 @@ spring:
         server-addr: 127.0.0.1:8848
         username: nacos
         password: nacos
+        namespace: a2de66c1-35c7-4e5e-8985-8a85bfd671d3
       config:
         # 配置中心地址
         server-addr: 127.0.0.1:8848
         username: nacos
         password: nacos
+        namespace: a2de66c1-35c7-4e5e-8985-8a85bfd671d3
         # 配置文件格式
         file-extension: yml
         # 共享配置
