@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.morpheus.coding.api.system.factory.UserFeginFallbackFactory,\
+com.morpheus.coding.api.system.factory.LogFeignFallbackFactory

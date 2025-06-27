@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.morpheus.coding.footstone.security.aspect.InnerAuthAspect,\
+com.morpheus.coding.footstone.security.aspect.PreAuthorizeAspect,\
+com.morpheus.coding.footstone.security.service.TokenService,\
+com.morpheus.coding.footstone.security.handle.GlobalExceptionHandler,\
+com.morpheus.coding.footstone.security.config.WebMvcConfig,\
+com.morpheus.coding.footstone.security.aspect.LogAspect,\
+com.morpheus.coding.footstone.core.config.ResourcesConfig,\
+com.morpheus.coding.footstone.security.service.redisson.RedissonDistributedLock,\
+com.morpheus.coding.footstone.security.aspect.DistributedLockAspect,\
+com.morpheus.coding.footstone.security.config.RedissonConfig

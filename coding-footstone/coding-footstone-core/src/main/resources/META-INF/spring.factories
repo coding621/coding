@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.morpheus.coding.footstone.core.utils.spring.SpringUtils,\
+com.morpheus.coding.footstone.core.config.CodingConfig,\
+com.morpheus.coding.footstone.core.config.MetaObjectHandlerConfig,\
+com.morpheus.coding.footstone.core.aspectj.RateLimiterAspect,\
+com.morpheus.coding.footstone.core.config.JacksonConfig,\
+com.morpheus.coding.footstone.core.config.MybatisPlusConfig,\
+com.morpheus.coding.footstone.core.config.ServerConfig,\
+com.morpheus.coding.footstone.core.config.ThreadPoolConfig,\
+com.morpheus.coding.footstone.core.config.redis.RedisConfig,\
+com.morpheus.coding.footstone.core.config.redis.RedisService

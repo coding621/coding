@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.morpheus.coding.footstone.notice.consumer.OAMessageConsumer,\
+com.morpheus.coding.footstone.notice.service.impl.WorkWxUtilsServiceImpl,\
+com.morpheus.coding.footstone.notice.utils.PublicUtil,\
+com.morpheus.coding.footstone.notice.utils.RocketMqUtils,\
+com.morpheus.coding.footstone.notice.utils.MessageUtils

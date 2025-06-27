@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.morpheus.coding.api.workflow.factory.DeployFeignFallbackFactory,\
+com.morpheus.coding.api.workflow.factory.ProcessFeignFallbackFactory

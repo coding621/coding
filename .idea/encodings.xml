@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/coding-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-notice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-notice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-sensitive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-sensitive/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/coding-footstone-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-footstone/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-openapi/coding-openapi-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-openapi/coding-openapi-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-openapi/coding-openapi-workflow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-openapi/coding-openapi-workflow/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-openapi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coding-openapi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

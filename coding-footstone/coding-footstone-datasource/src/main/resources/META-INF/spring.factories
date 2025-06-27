@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.morpheus.coding.footstone.datasource.properties.DruidProperties,\
+com.morpheus.coding.footstone.datasource.config.DruidConfig

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.morpheus.coding.footstone.swagger.config.SwaggerAutoConfiguration,\
+com.morpheus.coding.footstone.swagger.config.SwaggerWebConfiguration,\
+com.morpheus.coding.footstone.swagger.config.SwaggerBeanPostProcessor
