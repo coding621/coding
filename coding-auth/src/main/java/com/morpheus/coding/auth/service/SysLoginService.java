@@ -7,6 +7,7 @@ import com.morpheus.coding.footstone.core.constant.CacheConstants;
 import com.morpheus.coding.footstone.core.constant.Constants;
 import com.morpheus.coding.footstone.core.constant.SecurityConstants;
 import com.morpheus.coding.footstone.core.constant.UserConstants;
+import com.morpheus.coding.footstone.core.context.SecurityContextHolder;
 import com.morpheus.coding.footstone.core.core.domain.R;
 import com.morpheus.coding.footstone.core.core.domain.entity.SysUser;
 import com.morpheus.coding.footstone.core.core.domain.model.LoginUser;
@@ -89,6 +90,8 @@ public class SysLoginService {
         }
         passwordService.validate(user, password);
         recordLogService.recordLogininfor(username, Constants.LOGIN_SUCCESS, "登录成功");
+        //设置用户信息到上下文中
+        SecurityContextHolder.set(SecurityConstants.LOGIN_USER, userInfo);
         return userInfo;
     }
 
